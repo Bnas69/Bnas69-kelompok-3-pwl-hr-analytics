@@ -1,0 +1,47 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Laravel generated files
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+/bootstrap/cache/*.php
+
+# Keep Laravel gitignore files
+!/storage/framework/cache/.gitignore
+!/storage/framework/sessions/.gitignore
+!/storage/framework/views/.gitignore
+!/storage/logs/.gitignore
+
+# Uploaded/private files
+/storage/app/private/
+/storage/app/public/uploads/
+
+# Database backup
+*.sql
+*.sqlite
+*.db
+*.dump
+
+# OS / editor
+.DS_Store
+resources/.DS_Store
+.vscode/
+.idea/
+
+# Archive
+*.zip
+*.rar
+*.7z
+
+/dist/
+/netlify/
+/netlify.toml
+/public/build/
