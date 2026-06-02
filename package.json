@@ -5,7 +5,7 @@
         "dev": "node node_modules/vite/bin/vite.js --host 0.0.0.0",
         "build": "node node_modules/vite/bin/vite.js build",
         "serve": "php artisan serve --host=0.0.0.0 --port=8000",
-        "start": "npm run dev",
+        "start": "php artisan serve --host=0.0.0.0 --port=${PORT:-8000}",
         "static:dev": "node node_modules/vite/bin/vite.js --config vite.static.config.js --host 0.0.0.0",
         "static:build": "node node_modules/vite/bin/vite.js build --config vite.static.config.js"
     },

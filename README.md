@@ -143,3 +143,8 @@ php artisan migrate
 ## 5. Kesimpulan
 
 Website Human Resource Analytics ini dapat membantu tim HR memahami kondisi retensi karyawan secara visual dan terstruktur. Dengan klasifikasi Low, Medium, dan High Risk, perusahaan dapat menentukan strategi intervensi yang lebih tepat, terutama untuk karyawan dengan tingkat risiko keluar tinggi.
+
+
+## Deploy Online Railway
+
+Lihat file `PANDUAN_RAILWAY_AMAN.md` untuk langkah deploy Laravel ke Railway secara aman tanpa push `.env` dan file sensitif.

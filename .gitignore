@@ -1,47 +1,43 @@
-# Environment
-.env
-.env.*
+/node_modules
+/vendor
+/.env
+/.env.*
 !.env.example
 
-# Dependencies
-/vendor/
-/node_modules/
+/.phpunit.result.cache
+/Homestead.json
+/Homestead.yaml
+/npm-debug.log
+/yarn-error.log
+/.idea
+/.vscode
 
-# Laravel generated files
+/public/build
+/dist
+/netlify
+/netlify.toml
+
+/storage/*.key
+/storage/app/private/*
+!/storage/app/private/.gitignore
 /storage/framework/cache/*
+!/storage/framework/cache/.gitignore
 /storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
 /storage/framework/views/*
+!/storage/framework/views/.gitignore
 /storage/logs/*
+!/storage/logs/.gitignore
 /bootstrap/cache/*.php
 
-# Keep Laravel gitignore files
-!/storage/framework/cache/.gitignore
-!/storage/framework/sessions/.gitignore
-!/storage/framework/views/.gitignore
-!/storage/logs/.gitignore
-
-# Uploaded/private files
-/storage/app/private/
-/storage/app/public/uploads/
-
-# Database backup
 *.sql
 *.sqlite
 *.db
 *.dump
-
-# OS / editor
-.DS_Store
-resources/.DS_Store
-.vscode/
-.idea/
-
-# Archive
 *.zip
 *.rar
 *.7z
 
-/dist/
-/netlify/
-/netlify.toml
-/public/build/
+.DS_Store
+resources/.DS_Store
+/vite.static.config.js
