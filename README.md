@@ -146,5 +146,3 @@ Website Human Resource Analytics ini dapat membantu tim HR memahami kondisi rete
 
 
 ## Deploy Online Railway
-
-Lihat file `PANDUAN_RAILWAY_AMAN.md` untuk langkah deploy Laravel ke Railway secara aman tanpa push `.env` dan file sensitif.
